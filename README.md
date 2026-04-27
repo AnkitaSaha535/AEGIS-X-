@@ -1,4 +1,3 @@
-
 Orion is a high-performance Hybrid Orchestrator designed to manage autonomous AI agents across 8+ operational sectors. It uses a split-architecture approach to balance cloud intelligence with local, privacy-first edge processing.
 ​🚀 Key Features
 ​Hybrid Intelligence: Routes complex reasoning to the cloud and sensitive PII processing to local edge models.
