@@ -1,1 +1,30 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
+
+@theme {
+  --color-neon-green: #00FF66;
+  --color-amber-accent: #F59E0B;
+  --color-red-accent: #EF4444;
+  --color-midnight-950: #020617;
+  --color-midnight-900: #0A0B0D;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #27272A transparent;
+}
+
+body {
+  background: #0A0B0D;
+  color: #E4E4E7;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: rgba(0, 255, 102, 0.15);
+}

@@ -28,7 +28,7 @@ Orion is a high-performance Hybrid Orchestrator designed to manage autonomous AI
 ​Compliance: Validates organization policies against regulatory frameworks automatically.
 
 
-To deploy the ORION Orchestrator locally:
+To deploy Aegis-X locally:
 
 git clone https://github.com/AnkitaSaha535/orion-hybrid-orchestrator.git
 
